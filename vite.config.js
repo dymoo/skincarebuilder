@@ -17,7 +17,6 @@ const config = defineConfig({
       compilerOptions: {
         dev: !production,
       },
-      hot: !production,
     }),
   ],
   server: {
